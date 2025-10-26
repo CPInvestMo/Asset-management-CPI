@@ -8,12 +8,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:crystal_power_real_estate/main.dart';
+import 'package:asset_management/main.dart';
 
 void main() {
   testWidgets('App loads successfully', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(const CrystalPowerApp());
+    await tester.pumpWidget(const AssetManagementApp());
 
     // Verify that our app title exists
     expect(find.text('Crystal Power Investments'), findsOneWidget);
