@@ -1,0 +1,13 @@
+Payment_ID,Asset_ID,Investor_Name,Payment_Type,Payment_Category,Expected_Payment_Date,Actual_Payment_Date,Payment_Status,Amount_Due,Days_Late,Late_Fee_Percentage,Late_Fee_Amount,Total_Amount_Due,Payment_Method,Bank_Reference,Invoice_Number,Collection_Notes,Follow_up_Date,Responsible_Person,Priority_Level
+PAY001,PROP001,Eng. Mostafa Al-Qadi,Rent,Monthly Rent,2024-01-15,2024-01-14,Received,80000,0,0%,0,80000,Bank Transfer,REF20240114001,INV-2024-001,Paid early via electronic transfer,N/A,Ahmed Mahmoud,Normal
+PAY002,PROP002,Eng. Mostafa Al-Qadi,Rent,Monthly Rent,2024-01-15,2024-01-20,Received,45000,5,0%,0,45000,Bank Transfer,REF20240120002,INV-2024-002,Slight delay but within grace period,N/A,Ahmed Mahmoud,Normal
+PAY003,PROP003,Mohamed Maisara,Rent,Monthly Rent,2024-01-15,Not Paid,Overdue,90000,52,5%,4500,94500,N/A,N/A,INV-2024-003,Multiple follow-up attempts made - legal action considered,2024-03-08,Sara Hassan,High
+PAY004,PROP004,Mohamed Maisara,Rent,Monthly Rent,2024-01-15,Not Paid,Overdue,50000,52,5%,2500,52500,N/A,N/A,INV-2024-004,Same investor as PAY003 - coordinated collection effort,2024-03-08,Sara Hassan,High
+PAY005,PROP005,Abdelmohsen Group,Rent,Monthly Rent,2024-01-15,2024-01-16,Received,55000,1,0%,0,55000,Bank Transfer,REF20240116005,INV-2024-005,Reliable payer - minor 1-day delay,N/A,Fatma Ali,Normal
+PAY006,PROP001,Eng. Mostafa Al-Qadi,Maintenance,Property Maintenance,2024-02-01,2024-02-05,Received,25000,4,0%,0,25000,Bank Transfer,REF20240205006,INV-2024-006,Maintenance cost for pool repair,N/A,Ahmed Mahmoud,Normal
+PAY007,PROP002,Eng. Mostafa Al-Qadi,Rent,Monthly Rent,2024-02-15,2024-02-18,Received,45000,3,0%,0,45000,Bank Transfer,REF20240218007,INV-2024-007,Consistent slight delays - discussed payment schedule,N/A,Ahmed Mahmoud,Low
+PAY008,PROP003,Mohamed Maisara,Rent,Monthly Rent,2024-02-15,Not Paid,Overdue,90000,22,0%,0,90000,N/A,N/A,INV-2024-008,Escalated to senior management for resolution,2024-03-08,Sara Hassan,High
+PAY009,PROP004,Mohamed Maisara,Rent,Monthly Rent,2024-02-15,Not Paid,Pending,50000,22,0%,0,50000,N/A,N/A,INV-2024-009,Same status as PAY008 - awaiting investor meeting,2024-03-08,Sara Hassan,Medium
+PAY010,PROP005,Abdelmohsen Group,Rent,Monthly Rent,2024-02-15,2024-02-14,Received,55000,0,0%,0,55000,Bank Transfer,REF20240214010,INV-2024-010,Excellent payment history - paid early,N/A,Fatma Ali,Normal
+PAY011,PROP001,Eng. Mostafa Al-Qadi,Rent,Monthly Rent,2024-03-15,Not Paid,Pending,80000,0,0%,0,80000,N/A,N/A,INV-2024-011,Current period - due date approaching,2024-03-15,Ahmed Mahmoud,Normal
+PAY012,PROP006,Abdelmohsen Group,Maintenance,Property Setup,2024-03-01,Not Paid,Pending,150000,0,0%,0,150000,N/A,N/A,INV-2024-012,Initial property setup and furnishing costs,2024-03-10,Fatma Ali,Medium
